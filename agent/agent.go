@@ -5,8 +5,8 @@ import (
 	"math/rand"
 	"os"
 
+	"github.com/Gimulator-Games/xo-random-agent/world"
 	"github.com/Gimulator/client-go"
-	"gitlab.com/Syfract/Xerac/gimulator-archive/gimulator-test/world"
 )
 
 var ch = make(chan client.Object, 100)
